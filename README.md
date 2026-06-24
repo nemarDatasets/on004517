@@ -1,4 +1,6 @@
-﻿### Description
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004517-blue)](https://doi.org/10.82901/nemar.on004517)
+
+### Description
 This dataset contains electroencephalography (EEG) signals recorded from 7 participants while performing an auditory imagery task. Participants were asked to imagine the sounds made by an object for 5 seconds.
 
 

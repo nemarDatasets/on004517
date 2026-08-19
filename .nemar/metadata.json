@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "EEG recordings for semantic decoding of imagined animals and tools during auditory imagery task",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 7 participants performing an auditory imagery task, wherein subjects imagined sounds produced by objects from semantic categories (animals and tools) for 5-second intervals. Data were acquired using a BioSemi ActiveTwo system with 64 scalp electrodes, supplementary physiological channels including electrooculography, electrocardiography, and respiration monitoring, sampled at 2048 Hz. The dataset supports research in semantic brain-computer interfaces and neural decoding of imagined auditory content.",
-  "methods_description": "EEG signals were recorded using a BioSemi ActiveTwo system with 64 electrodes positioned according to the international 10-20 system, plus bilateral earlobe reference electrodes. Electrooculography was recorded from four electrodes (vertical and horizontal placements around the right eye). Additional physiological measurements included wrist electrodes for heart rate variability and a respiration belt. Sampling rate was 2048 Hz.",
+  "description": "This dataset comprises 64-channel EEG recordings from 7 participants performing an auditory imagery task, in which they imagined sounds associated with animals and tools following visual stimulus cues. The dataset is intended to support research on semantic decoding of imagined auditory content and brain-computer interface applications.",
+  "methods_description": "EEG data were acquired using a BioSemi ActiveTwo system with 64 electrodes arranged according to the international 10-20 system, plus earlobe reference electrodes. Additional electrodes recorded electrooculography (vertical and horizontal), wrist physiological signals, and respiration via a waist belt. Sampling rate was 2048 Hz. Participants imagined sounds made by an object for 5 seconds following presentation of images depicting animals or tools.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,7 +13,9 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
       "term": "auditory imagery"
@@ -22,13 +24,13 @@
       "term": "semantic decoding"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "brain-computer interface"
     },
     {
-      "term": "electrooculography"
+      "term": "EOG"
     },
     {
-      "term": "motor imagery"
+      "term": "BioSemi ActiveTwo"
     }
   ],
   "related_identifiers": [
@@ -38,19 +40,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004517",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1038/s41598-024-78512-1",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004517.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004517",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",

@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG recordings for semantic decoding of imagined animals and tools during auditory imagery task",
-  "description": "This dataset comprises 64-channel EEG recordings from 7 participants performing an auditory imagery task, in which they imagined sounds associated with animals and tools following visual stimulus cues. The dataset is intended to support research on semantic decoding of imagined auditory content and brain-computer interface applications.",
-  "methods_description": "EEG data were acquired using a BioSemi ActiveTwo system with 64 electrodes arranged according to the international 10-20 system, plus earlobe reference electrodes. Additional electrodes recorded electrooculography (vertical and horizontal), wrist physiological signals, and respiration via a waist belt. Sampling rate was 2048 Hz. Participants imagined sounds made by an object for 5 seconds following presentation of images depicting animals or tools.",
+  "description": "This dataset contains EEG recordings from 7 participants performing an auditory imagery task, in which they imagined the sounds made by objects from the semantic categories of animals and tools for 5 seconds. It supports research on semantic decoding and brain-computer interfacing. Recordings were made with a 64-channel BioSemi system, with additional EOG, physiological, and respiration channels.",
+  "methods_description": "EEG was acquired with a BioSemi ActiveTwo system with 64 electrodes placed according to the 10-20 system, plus earlobe reference electrodes, at a sampling rate of 2048 Hz. EOG electrodes recorded vertical and horizontal eye movements. Wrist electrodes and a respiration belt recorded additional physiological signals. Stimulus images of animals and tools are included.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,9 +13,7 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
     },
     {
       "term": "auditory imagery"
@@ -27,10 +25,17 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "EOG"
+      "term": "imagined speech"
     },
     {
-      "term": "BioSemi ActiveTwo"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Imagination",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007092"
     }
   ],
   "related_identifiers": [
@@ -56,7 +61,7 @@
     "eeg"
   ],
   "sizes": [
-    "13.6 GB (45 files)"
+    "12.68 GB (45 files)"
   ],
   "formats": [
     ".bdf",
